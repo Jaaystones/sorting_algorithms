@@ -1,5 +1,6 @@
 #include "sort.h"
 #include <stdio.h>
+#include <stdlib>
 /**
 * getMax - A utility function to get maximum value in arr[]
 * @arr: array
@@ -8,11 +9,11 @@
 */
 int getMax(int *arr, int n)
 {
-	int x, max = arr[0];
+	int i, max = arr[0];
 
-	for (x = 1; x < n; x++)
-		if (arr[x] > max)
-			max = arr[x];
+	for (i = 1; i < n; i++)
+		if (arr[i] > max)
+			max = arr[i];
 	return (max);
 }
 
