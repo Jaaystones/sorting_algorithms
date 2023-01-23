@@ -1,4 +1,11 @@
 #include "sort.h"
+
+void swap_ints(int *item1, int *item2);
+int lomuto_partition(int *array, size_t size, int left, int right);
+void lomuto_sort(int *array, size_t size, int left, int right);
+void quick_sort(int *array, size_t size);
+
+
 /**
 *swap - the positions of two elements into an array
 *@array: array
