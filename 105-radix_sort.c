@@ -28,7 +28,7 @@ int getMax(int *arr, int n)
 void countSort(int *arr, size_t n, int exp, int *output)
 {
 	int i;
-	int count[10] = {0};
+	int count[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 	/* Store count of occurrences in count[] */
 	for (i = 0; i < (int)n; i++)
